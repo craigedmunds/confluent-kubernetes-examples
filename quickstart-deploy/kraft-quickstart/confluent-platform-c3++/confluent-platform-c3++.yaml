@@ -39,7 +39,8 @@ metadata:
 spec:
   replicas: 1
   image:
-    application: confluentinc/cp-server-connect:8.0.0
+    application: cnfldemos/cp-server-connect-datagen:0.6.7-8.0.0
+    # application: confluentinc/cp-server-connect:8.0.0
     init: confluentinc/confluent-init-container:3.0.0
   dependencies:
     kafka:
